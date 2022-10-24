@@ -8,7 +8,11 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/routes', (req, res)=>{
 
-    res.send('Hello how r you?');
+
+    res.json({
+        "message": "What is your name"
+    })
+
 
 })
 
